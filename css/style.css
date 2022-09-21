@@ -1,0 +1,269 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding-top: 90px;
+  text-align: center;
+  font-family: 游ゴシック体, YuGothic, 游ゴシック, YuGothic, “Yu Gothic Medium”,
+    “游ゴシック Medium”, “ヒラギノ角ゴ Pro W3”, メイリオ, sans-serif;
+  font-weight: 500;
+  color: #333;
+  font-size: 1.4rem;
+  line-height: 1.75;
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+}
+h3 {
+  margin-top: 0;
+  margin-left: -56%;
+  transform: translateX(50%);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 3rem;
+  display: inline-block;
+}
+h3::after {
+  content: "";
+  display: block;
+  border-top: #489aad 2px solid;
+  margin-top: 10px;
+  width: 40%;
+}
+.big-text {
+  font-size: 3rem;
+}
+
+/*--------------------------
+    HEADER
+----------------------------*/
+
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 7px rgb(0 58 66 / 8%);
+}
+.header-contents {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-contents > a {
+  flex-basis: 120px;
+  margin-left: 20px;
+  align-self: flex-start;
+}
+.header-contents > a .logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.header-contents .header-button a {
+  display: block;
+  border: none;
+  background-color: #489aad;
+  color: #fff;
+  padding: 8px 35px;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.nav {
+  width: 10%;
+}
+
+/*--------------------------
+    MAIN
+----------------------------*/
+.main {
+  width: 100%;
+}
+.main-container {
+  background: url(https://dentaly.jp/wp-content/themes/dentaly-lp/cmn/img/top/mv.jpg?v=202208050651)
+    no-repeat;
+  width: 100%;
+  padding-top: 58.5%;
+  background-size: contain;
+}
+
+/*--------------------------
+    ABOUT
+----------------------------*/
+.about {
+  width: 100%;
+  background: url(https://dentaly.jp/wp-content/themes/dentaly-lp/cmn/img/top/about-bg.jpg?v=202208050651)
+    no-repeat;
+  background-size: cover;
+  padding: 150px 0 70px;
+}
+.heading {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 5rem;
+}
+.sub-heading {
+  color: #499aac;
+  font-size: 1.8rem;
+  font-weight: normal;
+  display: block;
+  margin-top: -50px;
+  margin-bottom: 60px;
+}
+.about-content {
+  font-size: 2.2rem;
+  line-height: 1.8;
+}
+.about-content span {
+  font-weight: bold;
+}
+.about .feature-container {
+  display: flex;
+  flex-direction: row;
+  width: 56%;
+  flex-wrap: wrap;
+  margin: 80px auto;
+}
+.about .feature-item {
+  flex-basis: 30%;
+  margin: 0 3.3% 3.3% 0;
+  box-shadow: 10px 10px 7px rgb(0 58 66 / 8%);
+  border-radius: 5%;
+}
+.lineup-container {
+  width: 56%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.lineup-text {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.lineup-container .image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.lineup-container .image-container .image-box {
+  width: 31%;
+  position: relative;
+}
+.lineup-container .image-container .image-box:hover {
+  opacity: 0.8;
+}
+.brush-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto 0;
+}
+.brush-box .brush-image {
+  height: 156px;
+  width: 156px;
+}
+.brush-box .brush-text {
+  font-size: 1.6rem;
+}
+.brush-box .brush-text span {
+  font-weight: bold;
+}
+.big-button-container {
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  margin: 30px auto;
+  padding: 0 5%;
+  background-color: #489aad;
+  border-radius: 60px;
+  box-shadow: 10px 10px 7px rgb(0 58 66 / 8%);
+}
+.big-button {
+  color: #fff;
+  line-height: 4;
+  font-size: 2.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.blue-text {
+  color: #489aad;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2;
+}
+.blue-text span {
+  text-decoration: underline;
+}
+
+/*--------------------------
+    WORRIES
+----------------------------*/
+.worries {
+  padding: 60px 0;
+  width: 100%;
+  background-color: #fff;
+}
+.heading-light {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 550;
+  letter-spacing: 3px;
+}
+.worries-container {
+  display: block;
+  position: relative;
+  height: 450px;
+}
+.worry-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 7px rgb(0 58 66 / 8%);
+  border: 1px solid #e8e8e8;
+  border-radius: 56px;
+  height: 112px;
+  width: 350px;
+  position: absolute;
+}
+.worry-text {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.worry-text span {
+  color: #489aad;
+}
+.worry01 {
+  left: 320px;
+  top: 0px;
+}
+.worry02 {
+  right: 370px;
+  top: 90px;
+}
+.worry03 {
+  left: 350px;
+  top: 230px;
+}
