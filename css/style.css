@@ -267,3 +267,114 @@ header {
   left: 350px;
   top: 230px;
 }
+.worry-images {
+  width: 65%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.worry-image-item {
+  height: 300px;
+  width: 435px;
+  background-size: cover;
+}
+.worry-image-item:last-child {
+  border-radius: 10px;
+  border: 1px solid #e8e8e8;
+}
+
+/*--------------------------
+    POINTS
+----------------------------*/
+.points {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px 0 100px;
+}
+.point-list {
+  margin: 100px auto 0;
+  display: block;
+  width: 80%;
+  list-style: none;
+}
+.point-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.point-image {
+  height: 360px;
+  width: 542px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.pt01 {
+  box-shadow: 40px 50px rgb(184 204 210 / 40%);
+}
+.pt02 {
+  box-shadow: 40px 50px rgb(255 255 255);
+}
+.pt03 {
+  box-shadow: 40px 50px rgb(237 237 236 / 50%);
+}
+.pt04 {
+  box-shadow: 40px 50px rgb(255 255 255);
+}
+.pt05 {
+  box-shadow: 40px 50px rgb(184 204 210 / 40%);
+}
+.point-image::before {
+  content: "";
+  background-image: url("https://dentaly.jp/wp-content/themes/dentaly-lp/cmn/img/top/point1.png");
+  background-size: contain;
+  width: 253px;
+  height: 164px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -70px;
+  left: 80px;
+}
+.right .point-image::before {
+  left: 250px;
+}
+.point-description-container {
+  margin-left: 80px;
+  max-width: 40%;
+  text-align: left;
+}
+.point-header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #489aad;
+}
+.point-text {
+  font-size: 1.8rem;
+}
+.memo {
+  font-size: 1.2rem;
+}
+/*--------------------------
+    BUTTON SPACE
+----------------------------*/
+.button-space {
+  background-color: #fff;
+  padding: 60px 0;
+}
+/*--------------------------
+    INTRODUCTION
+----------------------------*/
+.introduction {
+  background-color: #e6e6e8;
+  padding: 50px 0;
+}
+.introduction-heading {
+  color: #489aad;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.swiper-slide > .image {
+  border-radius: 0;
+}
