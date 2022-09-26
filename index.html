@@ -4,11 +4,13 @@
       <meta charset="UTF-8" />
       <meta name="robots" content="noindex, nofollow" />
       <title>Dentaly LPサイト模写</title>
-      <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/style.css" />
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+      <script src="https://use.fontawesome.com/8633f5290e.js"></script>
     </head>
     <body>
-      <header>
+      <header class="">
         <div class="header-contents">
           <h1 style="display: none">Dentaly</h1>
           <a href="#">
@@ -286,24 +288,193 @@
       </div>
       <section class="introduction">
         <h2 class="introduction-heading">機能紹介</h3>
+          <div class="swiper-space">
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img class="image" src="https://dentaly.jp/wp-content/themes/dentaly-lp/cmn/img/top/function-pic01.jpg?v=202208050651" alt="スワイプ画像"></div>
                     <div class="swiper-slide"><img class="image" src="https://dentaly.jp/wp-content/themes/dentaly-lp/cmn/img/top/function-pic02.jpg?v=202208050651" alt="スワイプ画像"></div>
                     <div class="swiper-slide"><img class="image" src="https://dentaly.jp/wp-content/themes/dentaly-lp/cmn/img/top/function-pic03.jpg?v=202208050651" alt="スワイプ画像"></div>
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
       </section>
-      <section class="cost"></section>
-      <section class="flow"></section>
+      <section class="cost">
+        <h2 class="heading-light">電動歯ブラシのサブスク「Dentaly」は<br><span>顧客満足度97.6%</span>を実現。<br>続けやすい価格でご提供いたします。</h2>
+        <div class="cost-table"><img src="" alt="表の写真"></div>
+      </section>
+      <section class="flow">
+        <h2 class="heading-light">電動歯ブラシサブスクリプションサービスの流れ</h2>
+        <div class="flow-container">
+          <div class="flow-box">
+            <div class="step-icon">STEP<br><span>1</span></div>
+            <p class="step-header">お申し込み</p>
+            <div class="step-image"><img src="" alt="画像"></div>
+            <p class="step-text">上記の「電動歯ブラシの定期便を始める」から申し込みフォームにアクセス。<br>本体カラーや替えブラシの硬さを選び、必要事項をご入力ください。</p>
+          </div>
+          <div class="flow-box">
+            <div class="step-icon">STEP<br><span>2</span></div>
+            <p class="step-header">電動歯ブラシ<br>セットが届きます</p>
+            <div class="step-image"><img src="" alt="画像"></div>
+            <p class="step-text">初回セットでは電動歯ブラシ本体と替えブラシ(3本／3ヶ月分)をお届け足ます。スタイリッシュな電動歯ブラシのある生活をお楽しみください。</p>
+          </div>
+          <div class="flow-box">
+            <div class="step-icon">STEP<br><span>3</span></div>
+            <p class="step-header">1ヶ月ごとに<br>ブラシを替えます</p>
+            <div class="step-image"><img src="" alt="画像"></div>
+            <p class="step-text">1ヶ月ごとに新品の替えブラシにお取り替えください。ブラシの硬さは、ソフト or ハード(月額+80円)から選べて、3ヶ月ごとの切り替えもOK！</p>
+            </p>
+          </div>
+          <div class="flow-box">
+            <div class="step-icon">STEP<br><span>4</span></div>
+            <p class="step-header">定期的に届きます</p>
+            <div class="step-image"><img src="" alt="画像"></div>
+            <p class="step-text">3ヶ月に1回、替えブラシ３本をご自宅のポストへお届けします。<br>対面での受け取りは不要なので、在宅時間を気にすることもありません。</p>
+          </div>
+        </div>
+      </section>
       <section class="reaction"></section>
-      <section class="question"></section>
-      <footer></footer>
-      <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+      <section class="question">
+        <h2 class="heading-light">よくあるご質問</h2>
+        <div class="accordion-container">
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">こんなにリーズナブルで大丈夫？</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">大手メーカーの電動歯ブラシを作っている工場と直接契約しているので、中間マージンが発生することなくコストカットに成功しています。</p>
+            </div>
+          </div>
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">継続回数の制限・縛りがあるか知りたいです。</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">ございません。<br/>ただし、3回目の配送月の全月末までに解約をした場合、解約手数料1980円(税込)を頂戴いたします。</p>
+            </div>
+          </div>
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">解約したいです。</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">次回配送便の全月末までにお問い合わせフォームよりご連絡くださいませ。</p>
+            </div>
+          </div>
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">解約時に電動はブラシの返却は可能ですか？</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">返却する必要がございません。差し上げる形となります。</p>
+            </div>
+          </div>
+        </div>
+        <div class="question-heading">製品について</div>
+        <div class="accordion-container">
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">届いた商品が故障してしまいました。</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">まずは故障した商品の状況がわかる画像を添付した上でお問い合わせフォームよりご連絡くださいませ。
+                商品到着後7日以内でかつ未使用の場合は弊社にて送料を負担します。</p>
+            </div>
+          </div>
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">本体を破損しました。</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">契約期間中は永久本体保証となります。まずは故障した商品の状況がわかる画像を添付した上でお問い合わせフォームよりご連絡くださいませ。
+                <br/>送料ご負担の上、本体をご返送ください。</p>
+            </div>
+          </div>
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">子供も利用したいです。</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">6歳以上のお子様はご使用可能です。
+                <br/>その際は、保護者のもとご使用くださいませ。</p>
+            </div>
+          </div>
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">替え歯ブラシの数を追加・変更したいです。</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">替えブラシの種類は「マイページ」にて設定変更可能です。<br>
+                ブラシの数は追加できません。<br>
+                ご不明な点がある場合は、お問い合わせください。</p>
+            </div>
+          </div>
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">決済方法を教えてください。</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">クレジット決済のみとなります。<br>
+                JCB、VISA、Master、AMERICAN EXPRESS、Discover、Dinersがご利用いただけます。<br>
+                ※海外発行のカードはご利用いただけません。
+            </div>
+          </div>
+          <div class="accordion-question">
+            <label class="question-image">Q</label>
+            <p class="question-text">クレジットカードを変更したいです。</p>
+            <div class="arrow rotate-reset"><i class="fa fa-chevron-down"></i></div>
+          </div>
+          <div class="accordion-answer">
+            <div class="answer-box">
+              <label class="answer-image">A</label>
+              <p class="answer-text">「マイページ」よりいつでも変更可能です。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <ul class="footer-link-list">
+          <li class="footer-link"><a href="#">プライバシポリシー</a></li>
+          <li class="footer-link"><a href="#">運営会社</a></li>
+          <li class="footer-link"><a href="#">利用規約</a></li>
+          <li class="footer-link"><a href="#">通信販売広告における表記</a></li>
+          <li class="footer-link"><a href="#">お問い合わせ</a></li>
+        </ul>
+        <div class="footer-other-page"><p>紹介サイト+</p></div>
+        <p class="footer-text">@2022 kazuyafujiwara</p>
+      </footer>
+      <script type="text/javascript" src="/js/swiper-bundle.min.js"></script>
       <script>
-        var swiper = new Swiper('.swiper-container', {
+        const swiper = new Swiper('.swiper', {
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -313,7 +484,11 @@
                 el: '.swiper-pagination',
                 type: 'bullets', clickable: true,
             },
-        });
+            spaceBetween: 80,
+            slidesPerView: 'auto',
+            slidesPerView: 1,
+          });
       </script>
+      <script src="/js/main.js"></script>
     </body></html
 ></DOCTYPE!>
