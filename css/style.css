@@ -54,7 +54,7 @@ h3::after {
     HEADER
 ----------------------------*/
 
-header {
+.header-normal {
   position: fixed;
   z-index: 100;
   top: 0;
