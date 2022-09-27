@@ -25,7 +25,7 @@
             />
           </a>
           <div class="button-small">
-            <a href="#">お申し込み</a>
+            <a href="#purchase">お申し込み</a>
           </div>
         </div>
         <nav class="slide-nav">
@@ -41,14 +41,14 @@
                 <a href="#worries">こんなお悩みありませんか？</a>
               </li>
               <li class="nav-item">
-                <a href="#points">Dentalyが選ばれ理由</a>
+                <a href="#points">Dentalyが選ばれる理由</a>
               </li>
               <li class="nav-item"><a href="#introduction">機能紹介</a></li>
               <li class="nav-item"><a href="#flow">サービスの流れ</a></li>
               <li class="nav-item"><a href="#question">よくあるご質問</a></li>
             </ul>
             <div class="button-small">
-              <a href="#">お申し込みはこちら</a>
+              <a href="#purchase">お申し込みはこちら</a>
             </div>
           </div>
         </nav>
@@ -165,7 +165,9 @@
           </p>
         </div>
         <div class="big-button-container">
-          <a href="#" class="big-button">電動歯ブラシの定期便を始める</a>
+          <a href="#purchase" class="big-button"
+            >電動歯ブラシの定期便を始める</a
+          >
         </div>
         <p class="blue-text">今申し込むと最短で<span>4日後に</span>発送</p>
       </section>
@@ -317,7 +319,9 @@
       </section>
       <div class="button-space">
         <div class="big-button-container">
-          <a href="#" class="big-button">電動歯ブラシの定期便を始める</a>
+          <a href="#purchase" class="big-button"
+            >電動歯ブラシの定期便を始める</a
+          >
         </div>
         <p class="blue-text">今申し込むと最短で<span>4日後に</span>発送</p>
       </div>
@@ -574,6 +578,10 @@
           </div>
         </div>
       </section>
+      <section class="purchase" id="purchase">
+        <h2 class="heading">お申し込み</h2>
+        <p>作成中...</p>
+      </section>
       <footer class="footer">
         <ul class="footer-link-list">
           <li class="footer-link"><a href="#">プライバシポリシー</a></li>
@@ -601,6 +609,18 @@
           spaceBetween: 80,
           slidesPerView: "auto",
           slidesPerView: 1,
+        });
+      </script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"
+        integrity="sha512-LZ6YBzwuQvIG41twjliX3HUVeAd+ErnJ0UsqRnkI4firX2l71jxbKJoax/hu7XY2tiyLl0YA2kcnz/XEW+9O3g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+          speed: 100,
+          easing: "easeOutCubic",
         });
       </script>
       <script src="js/main.js"></script>

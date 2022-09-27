@@ -445,6 +445,7 @@ h3::after {
   color: #489aad;
   font-size: 3rem;
   font-weight: bold;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 .swiper-space {
@@ -481,6 +482,7 @@ h3::after {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 .flow-box {
@@ -540,6 +542,7 @@ h3::after {
   padding: 50px 0;
 }
 .question > .heading-light {
+  margin-top: 50px;
   font-weight: normal;
   letter-spacing: 0;
 }
