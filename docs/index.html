@@ -16,22 +16,35 @@
           <a href="#">
             <img class="logo" src="https://github.com/kazuyafuji/DentalyLP/blob/main/docs/images/logo.png?raw=true" alt="ロゴ" />
           </a>
-          <div class="header-button">
+          <div class="button-small">
             <a href="#">お申し込み</a>
           </div>
         </div>
-        <nav class="header-nav">
-          <a href="#">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-          </a>
+        <nav class="slide-nav">
+          <div class="slide-nav-click">
+            <div class="line nav-l-01"></div>
+            <div class="line nav-l-02"></div>
+            <div class="line nav-l-03"></div>
+          </div>
+            <div class="slide-box off">
+              <ul class="nav-list">
+                <li class="nav-item"><a href="#about">Dentalyについて</a></li>
+                <li class="nav-item"><a href="#worries">こんなお悩みありませんか？</a></li>
+                <li class="nav-item"><a href="#points">Dentalyが選ばれ理由</a></li>
+                <li class="nav-item"><a href="#introduction">機能紹介</a></li>
+                <li class="nav-item"><a href="#flow">サービスの流れ</a></li>
+                <li class="nav-item"><a href="#question">よくあるご質問</a></li>
+              </ul>
+              <div class="button-small">
+                <a href="#">お申し込みはこちら</a>
+              </div>
+            </div>
         </nav>
       </header>
       <section class="main">
         <div class="main-container"></div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <h2 class="heading">ABOUT</h2>
         <p class="sub-heading">Dentalyについて</p>
         <p class="about-content">
@@ -135,7 +148,7 @@
         </div>
         <p class="blue-text">今申し込むと最短で<span>4日後に</span>発送</p>
       </section>
-      <section class="worries">
+      <section class="worries" id="worries">
         <h2 style="display: none">悩み</h2>
         <p class="heading heading-light">こんなお悩みありませんか？</p>
         <div class="worries-container">
@@ -182,6 +195,7 @@
         style="
           background-image: url(https://dentaly.jp/wp-content/themes/dentaly-lp/cmn/img/top/choice-bg.jpg?v=202208050651);
         "
+        id="points"
       >
         <h2 style="display: none">ポイント</h2>
         <p class="heading heading-light">
@@ -286,7 +300,7 @@
         </div>
         <p class="blue-text">今申し込むと最短で<span>4日後に</span>発送</p>
       </div>
-      <section class="introduction">
+      <section class="introduction" id="introduction">
         <h2 class="introduction-heading">機能紹介</h3>
           <div class="swiper-space">
             <div class="swiper">
@@ -305,7 +319,7 @@
         <h2 class="heading-light">電動歯ブラシのサブスク「Dentaly」は<br><span>顧客満足度97.6%</span>を実現。<br>続けやすい価格でご提供いたします。</h2>
         <div class="cost-table"><img src="" alt="表の写真"></div>
       </section>
-      <section class="flow">
+      <section class="flow" id="flow">
         <h2 class="heading-light">電動歯ブラシサブスクリプションサービスの流れ</h2>
         <div class="flow-container">
           <div class="flow-box">
@@ -336,7 +350,7 @@
         </div>
       </section>
       <section class="reaction"></section>
-      <section class="question">
+      <section class="question" id="question">
         <h2 class="heading-light">よくあるご質問</h2>
         <div class="accordion-container">
           <div class="accordion-question">
